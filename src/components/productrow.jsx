@@ -1,6 +1,7 @@
 import React from "react";
 
-function ProductRow(props) {
+// Stateless function
+export default function ProductRow(props) {
   //Product Row component
   return (
     <>
@@ -8,5 +9,3 @@ function ProductRow(props) {
     </>
   );
 }
-
-export default ProductRow;
